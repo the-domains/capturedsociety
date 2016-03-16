@@ -1,28 +1,40 @@
-name: CapturedSociety
-favicon: null
-layout_spectrum: 0.3325227794703096
-typography_spectrum: 0.5491181681863964
 cta:
-  domain: null
   bucket: null
   version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+  domain: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
-  brandStrength: 0.6897867349907756
-  lightness: 0.7683474489022046
-  saturation: 0.37916157161816955
-  rhythmicContrast: 0.2929313746280968
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.320623
+  brandStrength: 1
+  lightness: 0.8233083
+  brandColors:
+    - '#D8D6CF'
+    - '#CF4B3A'
+    - '#4A3A30'
+    - '#99896F'
+    - '#FFE15C'
+  rhythmicContrast: 0.7277121
+typography_spectrum: 0.9307196
+layout_spectrum: 0.556928
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: CapturedSociety
